@@ -1,0 +1,30 @@
+/* Basic table styling for clarity */
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  td, th {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .health-bar {
+    width: 15vw; /* Consistent width for all health bars */
+    height: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    overflow: hidden; /* Ensures the inner div doesn't overflow */
+    position: relative;
+  }
+  
+  .health {
+    height: 100%;
+    background-color: #4CAF50; /* Default green color, will be updated by JS */
+    width: 0; /* Will be set inline in the HTML and modified by JS if needed */
+    transition: background-color 0.5s ease; /* Smooth transition for color change */
+  }
+  
+
+  

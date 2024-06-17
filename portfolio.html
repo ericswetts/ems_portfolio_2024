@@ -1,0 +1,68 @@
+ <div class="container" id="portfolio-container">
+        <div class="preview" id="preview">
+            <p style="margin: auto;">Hover over a card to preview
+                <br><br>Click a card for hyperlink
+            </p>
+        </div>
+        <div class="cards-container">
+            <div class="filter-container">
+                <div>
+                <p> Please use the dropdown to filter my past projects.<br><br>Select an item to open the project in a new window.</p>
+                </div>
+                <select id="filter">
+                    <option value="all-projects">All Projects</option>
+                    <option value="focus-research">Research</option>
+                    <option value="focus-data-analysis">Data Analysis</option>
+                    <option value="focus-web-development">Web Development</option>
+                </select>
+            </div>
+
+            <div class="cards" id="cards">
+                <!-- New Research Cards -->
+                <div class="card focus-research" data-document="assets/docs/clinical_data.txt"
+                    data-description="Completed using: SAS
+                    <br><br>University of Pittsburgh Cancer Institute (UPCI) internship research.
+                    <br><br>This code was used to compare clinical data (height, weight, waist, and BMI) between baseline and post-intervention measurements, and subsequently tests for significant differences using both parametric (paired t-test*) and nonparametric (Wilcoxon Signed Rank Test) hypothesis testing. 
+                    <br><br>*NOTE: This code manually calculates the mean differences between baseline and post-intervention groups and conducts a one-sample t-test, which is equivalent to a paired t-test.">
+                    Pre-Diabetes Lifestyle Interventon - Analysis</div>
+                <div class="card focus-research" data-document="assets/docs/facit.txt"
+                    data-description="Completed using: SAS
+                    <br><br>University of Pittsburgh Cancer Institute (UPCI) internship research.
+                    <br><br>This program was used to calculate composite scores for study participants completing a validated survey (FACIT Fatigue Scale).">
+                    Pre-Diabetes Lifestyle Interventon - FACIT</div>
+                <div class="card focus-research" data-document="assets/docs/screening.txt"
+                    data-description="Completed using: SAS
+                    <br><br>University of Pittsburgh Cancer Institute (UPCI) internship research.
+                    <br><br>This script was used to format and report descriptive statistics on individuals screened for study participation.">
+                    Pre-Diabetes Lifestyle Interventon - Eligibility</div>
+                <div class="card focus-research" data-document="assets/docs/medical_cost_estimates.txt"
+                    data-description="Completed using: Stata
+                    <br><br>This code utilizes a nested array used to process the output of an agent-based influenza transmission model. The use of two arrays allows for the estimation of medical costs based on 1) age and 2) risk categories. The script also allowed for the easy inclusion of additional simulation data for input and applied labels to the data based on the simulation.">
+                    Influenza and Medical Costs</div>
+                <div class="card focus-research" data-document="assets/docs/ems_analysis_final.txt"
+                    data-description="Completed using: Stata
+                    <br><br>This is the finalized code used in my Master's Essay entitled 'Social Mixing Patterns in Rural India. While my essay is currently embargoed as per the CDC, you can see my abstract on Researchgate and see the STATA code used for analysis:">
+                    ⭐ Social Mixing Patterns in Rural India</div>
+                <div class="card focus-data-analysis" data-document="assets/docs/ems_analysis_final.txt"
+                    data-description="Completed using: SAS
+                <br><br>Data on 17,176 births in Allegheny County from 2009-2013, were analyzed individually using simple linear regression, then together using multiple linear regression, to determine what variable(s) best predicted birthweight.">
+                    Low Birthweight and Individual Risk Factors in Allegheny County</div>
+                <div class="card focus-web-development"
+                    data-document="https://github.com/ericswetts/Google-Image-Search-Scraper" 
+                    data-description="A simple script that scrapes Google image search results. 
+                    <br>Completed using: Python Noteboook
+                    <br><br>Because there is a limit on the search results of a single query, this script allows for the results of related terms to be
+                    stored together. The script also saves all URLs collected in CSVs.">
+                    Google Images Web Scraper</div>
+                <div class="card focus-web-development focus-data-analysis"
+                    data-document="assets/docs/google_image_scraper_2020.txt"
+                    data-description="This Plotly / Dash project displays country level descriptive statistics on the COVID-19 pandemic. 
+                    <br><br>  Aside from common measures used in epidemiology (incidence, mortality, etc.), additional data sources were integrated to provide additional context on each country (such as income range & press freedom scores, among others). 
+                    <br><br>Note this is solely to illustrate experience with Plotly / Dash.
+                    <br><br>Previous versions of this project implemented PostgreSQL & Flask framework to pull up-to-date information. If you're interested in viewing the code for the previous version, please see:
+                    <br><br>https://github.com/ericswetts/ems-covid19-dashboard.git">
+                    ⭐ COVID-19 Infection Tracking Dashboard</div>
+
+            </div>
+        </div>
+    </div>

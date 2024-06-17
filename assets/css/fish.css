@@ -1,0 +1,35 @@
+body {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    margin: 0;
+}
+
+.barracuda {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -200px; /* Start just outside the right side */
+    will-change: transform;
+    z-index: 20; /* Ensure fish are in front of the background cover */
+}
+
+#background-cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./fish_bkgd.jpeg');
+    background-size: cover;
+    background-position: center;
+    z-index: 10; /* Ensure it covers all other elements but behind the fish */
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+}
+
+#background-cover.show {
+    opacity: 1;
+    pointer-events: all;
+}

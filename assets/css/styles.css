@@ -18,7 +18,6 @@ body {
     max-height: 500px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: white;
-    flex-direction: column;
     padding: 20px;
     min-width: 320px;
     height: 70%;
@@ -100,6 +99,13 @@ body {
     /* min-width: 20 vw;
     max-width: 20 vw; */
 }
+
+#diving-content-container {
+    display: flex;
+    flex-direction: column !important;
+    overflow-y: scroll;
+}
+
 
 .cards {
     display: flex;
@@ -209,11 +215,6 @@ body {
     justify-content: space-between;
     width: 100%;
     
-}
-
-#diving-container {
-    display: flex;
-    flex-direction: column;
 }
 
 #skills-table-container {

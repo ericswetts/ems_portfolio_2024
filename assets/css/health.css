@@ -11,7 +11,7 @@ table {
   }
   
   .health-bar {
-    width: 15vw; /* Consistent width for all health bars */
+    width: 10dvw; /* Consistent width for all health bars */
     height: 10px;
     border: 1px solid #333;
     border-radius: 5px;
